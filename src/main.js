@@ -3,8 +3,17 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import { BootstrapVue } from "bootstrap-vue";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
+// import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap-vue/dist/bootstrap-vue.css";
+
+import "./assets/theme-zendori/css/bootstrap.css";
+import "./assets/theme-zendori/css/style.css";
+import "./assets/theme-zendori/css/all.css";
+import "./assets/theme-zendori/css/font-awesome.css";
+import "./assets/theme-zendori/css/brands.css";
+import "./assets/theme-zendori/css/etalage.css";
+import "./assets/theme-zendori/css/owl.carousel.css";
+
 import components from "./components/BaseComponents/component";
 import moment from "moment";
 

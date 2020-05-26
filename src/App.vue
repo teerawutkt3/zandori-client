@@ -11,6 +11,9 @@ html,
 body {
   font-family: "Prompt";
 }
+:not(i) {
+  font-family: "Prompt" !important;
+}
 #app {
   font-family: "Prompt", sans-serif;
 }
