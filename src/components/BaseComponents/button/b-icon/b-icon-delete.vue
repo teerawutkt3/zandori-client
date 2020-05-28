@@ -4,13 +4,13 @@
 
 <script>
 export default {
-  props: {
-    click: {
-      type: Function,
-      default: () => {}
-    }
-  }
-};
+	props: {
+		click: {
+			type: Function,
+			default: () => {}
+		}
+	}
+}
 </script>
 
 <style></style>

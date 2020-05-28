@@ -3,20 +3,20 @@
 </template>
 
 <script>
-import Button from "./button";
+import Button from "./button"
 
 export default {
-  name: "b-cancel",
-  props: {
-    click: {
-      type: Function,
-      default: () => {}
-    }
-  },
-  components: {
-    Button
-  }
-};
+	name: "b-cancel",
+	props: {
+		click: {
+			type: Function,
+			default: () => {}
+		}
+	},
+	components: {
+		Button
+	}
+}
 </script>
 
 <style scoped></style>

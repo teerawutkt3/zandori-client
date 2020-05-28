@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  props: {
-    click: {
-      type: Function,
-      default: () => {}
-    },
-    id: String
-  }
-};
+	props: {
+		click: {
+			type: Function,
+			default: () => {}
+		},
+		id: String
+	}
+}
 </script>
 
 <style></style>

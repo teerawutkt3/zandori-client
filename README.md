@@ -1,4 +1,4 @@
-# zandori-client
+# zendori-frontend
 
 ## Project setup
 ```

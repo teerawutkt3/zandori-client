@@ -3,23 +3,24 @@
     <h2><u>Base Components</u></h2>
     <b-row>
       <b-col>
-        <Card />
+        <Card/>
       </b-col>
     </b-row>
     <b-row>
       <b-col>
-        <Button />
+        <Button/>
       </b-col>
     </b-row>
   </b-container>
 </template>
 <script>
-import Card from "../components/Page/BaseComponents/Card";
-import Button from "../components/Page/BaseComponents/Button";
+import Card from '../components/Page/BaseComponents/Card'
+import Button from '../components/Page/BaseComponents/Button'
+
 export default {
-  components: {
-    Card,
-    Button
-  }
-};
+	components: {
+		Card,
+		Button,
+	},
+}
 </script>

@@ -45,35 +45,35 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      description_1: `
+	data() {
+		return {
+			description_1: `
 #1
 <b-card :header="true" :imgShow="true" :src="imgPath">
     <template v-slot:header>Hedare</template>
     <template v-slot:body> Content</template>
 </b-card>
             `,
-      description_2: `
+			description_2: `
 #2
 <b-card :header="false" :imgShow="true" :src="imgPath">
     <template v-slot:body> Content</template>
 </b-card>
     `,
-      description_3: `
+			description_3: `
 #3
 <b-card :header="true" :imgShow="false">
     <template v-slot:header>Hedare</template>
     <template v-slot:body> Content</template>
 </b-card>
     `,
-      description_4: `
+			description_4: `
 #4
 <b-card :header="false" :imgShow="false">
     <template v-slot:body> Content</template>
 </b-card>
     `
-    };
-  }
-};
+		}
+	}
+}
 </script>

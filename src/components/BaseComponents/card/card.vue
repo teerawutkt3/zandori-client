@@ -18,31 +18,31 @@
 
 <script>
 export default {
-  name: "base-card",
-  data() {
-    return {
-      defaultClass: "card shadow-" + this.shadow
-    };
-  },
-  props: {
-    header: {
-      type: Boolean,
-      default: true
-    },
-    shadow: {
-      type: String,
-      default: "lg"
-    },
-    imgShow: {
-      type: Boolean,
-      default: false
-    },
-    imgLink: {
-      type: String,
-      default: "https://picsum.photos/600/300/?image=25"
-    }
-  }
-};
+	name: "base-card",
+	data() {
+		return {
+			defaultClass: "card shadow-" + this.shadow
+		}
+	},
+	props: {
+		header: {
+			type: Boolean,
+			default: true
+		},
+		shadow: {
+			type: String,
+			default: "lg"
+		},
+		imgShow: {
+			type: Boolean,
+			default: false
+		},
+		imgLink: {
+			type: String,
+			default: "https://picsum.photos/600/300/?image=25"
+		}
+	}
+}
 </script>
 
 <style scoped></style>

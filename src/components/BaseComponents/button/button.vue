@@ -6,17 +6,17 @@
 
 <script>
 export default {
-  name: "base-button",
-  props: {
-    click: {
-      type: Function,
-      default: () => {}
-    },
-    color: String,
-    type: {
-      type: String,
-      default: "button"
-    }
-  }
-};
+	name: "base-button",
+	props: {
+		click: {
+			type: Function,
+			default: () => {}
+		},
+		color: String,
+		type: {
+			type: String,
+			default: "button"
+		}
+	}
+}
 </script>
