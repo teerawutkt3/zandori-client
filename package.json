@@ -13,7 +13,7 @@
     "core-js": "^3.6.4",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "sweetalert2": "^9.11.0",
     "vue": "^2.6.11",
     "vue-number-animation": "1.0.4",
